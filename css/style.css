@@ -1,3 +1,4 @@
+
 header {
     height: 84px;
     display: flex;
@@ -25,5 +26,35 @@ header {
 ul {
     color: #636060;
     font-size: 17px;
+    font-family: Helvetica;
+}
+.s-1 {
+    display: flex;
+    width: 100%;
+    height: 606px;
+    background-image: url(../images/view.png);
+    background-color: #636060;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    color: #FFF;
+    font-size: 79px;
+    font-family: Helvetica;
+    font-weight: 700;
+}
+h2 {
+    color: #FFF;
+    font-size: 19px;
     font-family: Helvetica;
 }
